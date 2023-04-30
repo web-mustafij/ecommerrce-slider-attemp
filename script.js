@@ -117,7 +117,7 @@ swiper.on('slideChangeTransitionEnd', function () {
 
     $('.item-bg').addClass('active');
 
-    bg.style.width = width + 'px';
+    bg.style.width = width + 'percent';
     bg.style.height = height + 'px';
     bg.style.transform = 'translateX(' + x + 'px ) translateY(' + y + 'px)';
 });
